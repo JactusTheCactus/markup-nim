@@ -34,4 +34,6 @@
 
 ## System
 
-AST, meaning nesting but no overlaping.
+AST, meaning;
+- [x] nesting
+- [ ] overlaping
