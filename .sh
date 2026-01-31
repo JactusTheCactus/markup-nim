@@ -7,7 +7,9 @@ if ! command -v "$nim" > /dev/null; then
 		"Install <nim> at <https://nim-lang.org/install.html>"
 	exit 1
 fi
+clear
 if make "$@"; then
-	clear
-	./bin/main
+	# ./bin/main
+	clear #-x
+	./bin/test
 fi
